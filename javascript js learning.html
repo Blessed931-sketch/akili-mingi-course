@@ -1,0 +1,142 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<script language="javascript" type="text/javascript" src="Scripts/Javascript.js"></script><!--You can also add JS as external file-->
+	<script>
+		//You can add JS code here
+	</script> 
+</head>
+<body>
+		<script language="javascript" type="text/javascript">
+		//This is the first javascript-just a comment
+		document.write("Learning Javascript!")
+		document.write("25, february 2025");
+		document.write("I am learing JS");
+		age=25;
+		name="Blessed";
+		var age;
+		var name;
+		
+		var x=12;
+		var y=7;
+		add=x+y;
+		subtract=x-y;
+		divide=x/y;
+		multiply=x*y;
+		remainder=x%y;
+		increase=x++;
+		decrease=x--;
+		linebreak = "<br>"
+		
+		document.write(linebreak);
+		document.write("Arithmetic Operators");
+		document.write(linebreak);
+		document.write(add);
+		document.write(linebreak);
+		document.write(subtract);
+		document.write(linebreak);
+		document.write(divide);
+		document.write(linebreak)
+		document.write(multiply);
+		document.write(linebreak);
+		document.write(remainder);
+		document.write(linebreak);
+		document.write(increase);
+		document.write(linebreak);
+		document.write(decrease);
+		document.write(linebreak);
+		document.write(x==y);
+		document.write(linebreak);
+		document.write(x>y);
+		document.write(linebreak);
+		document.write(x<y);
+		document.write(linebreak);
+		document.write(x<=y);
+		document.write(linebreak);
+		document.write(x>=y);
+		document.write(linebreak);
+		document.write(x!=y);
+		document.write(linebreak);
+		document.write("LOGICAL OPERATORS")
+		document.write(linebreak);
+		
+		child_age=15;
+		person="child";
+		
+		document.write(child_age < 10&& person=="child")//LOGICAL AND ( BOTH LEFT AND RIGHT CONDITION ARE MET/
+		document.write(child_age < 10|| person=="child")//LOGICAL OR (IF EITHER THE lEFT OR RIGHT CONDITIONS IS TRUE, THEN THE RESULT IS TRUE)/
+		document.write(!child_age < 10&& person=="child")//LOGICAL NOT (NEGATE)
+		
+		/*
+		*this is line one comment
+		*This is line two comment
+		*/
+		document.write(linebreak);
+		document.write("Assignment Operators")
+		x+=y  /*x = x+y   */
+		document.write(x)
+		
+		document.write(linebreak);	
+		document.write("let vs var")
+		document.write(linebreak);
+		
+		var price = 1000;
+		{
+		var price= 1200;
+		let quantity = 10;
+		document.write(quantity);
+		document.write(linebreak);
+		}
+		document.write(price);
+		document.write(linebreak);
+		//document.write(quantity);
+		
+		//Arrays -  array car_description
+		//Let car_description = ["BMW", 45000000, "Grey", 2020];
+		//document.write(car_description);
+		
+		//javascript objects- relate to real-world objects
+		//const person = {firstName:"John", lastName:"Smith", age: 35}
+		
+		//typeof Operator - ccheck data type of a variable
+		//(typeof(34));
+		//(typeof("Blessed"));
+		//(typeof(FALSE));
+		
+		let today_date = new Date()
+		document.write(today_date)
+		
+		var month = "Jan"
+		var year = 2010
+			document.write(linebreak)
+			document.write(month + year) //Implicit type conversion
+			
+			//Implicit type style conversion (to string)
+			document.write(linebreak);
+			document.write(typeof String(100) + "<br/>")
+			document.write(typeof String(null) + "<br/>")
+			document.write(typeof String(true) + "<br/>")
+			</script>      
+			</body>
+			<body>
+			<script language="javascript" type=" text/javascript">
+			for (let i = 0; i <10; i++){
+			document.write(i+ "<br/>");
+			}
+	//Conditional statements
+	document.write(linebreak)
+	if (age > 18){
+	document.write("You are an adult");
+	} else if(age > 30){
+	document.write("You are above 30")
+	} else if(age > 40){
+	document.write("You are above 40")
+	} else {
+	document.write("You are not an adult");
+	}
+		</script>
+		<button></button>
+		
+</body>
+</html>
+
